@@ -17,6 +17,7 @@ class Checkstyle {
     double K = C + 273.15;
     return K;
   }
+  //Voici la ligne que je change --> wissal
 
   // Method to convert Fahrenheit to Celcius
   static double F_C(double F){
