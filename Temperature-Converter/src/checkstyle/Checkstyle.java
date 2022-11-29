@@ -14,7 +14,7 @@ class Checkstyle {
   }
   // Method to convert Celcius to Kelvin
   static double C_K(double C){
-    double K = C + 273.15;
+    double K = C * 273.15;
     return K;
   }
   //Voici la ligne que je change --> wissal
