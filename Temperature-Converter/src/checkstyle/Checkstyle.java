@@ -57,7 +57,8 @@ class Checkstyle {
   + "3. Fahrenheit to Celcius\n4. Fahrenheit to Kelvin\n"
   + "5. Kelvin to Celcius\n6. Kelvin to Fahrenheit\n7. Exit");
     do {
-      System.out.println("\nEnter Choice: ");
+      //Voici la ligne que je change --> khaoula
+      System.out.println("\nDonner votre choix: ");
       int ch = sc.nextInt();
       double num = 0;
       switch (ch) {
