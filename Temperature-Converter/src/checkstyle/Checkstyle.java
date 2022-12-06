@@ -18,7 +18,9 @@ class Checkstyle {
   }
   // Method to convert Celcius to Kelvin
   static double C_K(double C){
+
     double K = C * 273.15;
+
     return K;
   }
   //Voici la ligne que je change --> wissal
@@ -63,6 +65,7 @@ class Checkstyle {
     do {
       //Voici la ligne que je change --> khaoula
       System.out.println("\nDonner votre choix: ");
+      System.out.println("\n(Votre choix doit etre entre 1 et 7)");
       int ch = sc.nextInt();
       double num = 0;
       switch (ch) {
