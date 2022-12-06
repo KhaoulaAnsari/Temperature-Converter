@@ -13,7 +13,7 @@ class Checkstyle {
 
   // Method to convert Celcius to Fahrenheit
   static double C_F(double C){
-    double F = (C * 9/5) + 32;
+    double F = (C - 9/5) + 32;
     return F;
   }
   // Method to convert Celcius to Kelvin
@@ -91,6 +91,8 @@ class Checkstyle {
             break;
         default: System.out.println("Invalid Input"); } } while (true);
   }
+
+
 
 }
 //fin
