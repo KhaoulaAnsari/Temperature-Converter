@@ -13,7 +13,7 @@ class Checkstyle {
 
   // Method to convert Celcius to Fahrenheit
   static double C_F(double C){
-    double F = (C * 9/5) + 32;
+    double F = (C + 9/5) + 32;
     return F;
   }
   // Method to convert Celcius to Kelvin
@@ -65,7 +65,6 @@ class Checkstyle {
     do {
       //Voici la ligne que je change --> khaoula
       System.out.println("\nDonner votre choix: ");
-      System.out.println("\n(Votre choix doit etre entre 1 et 7)");
       int ch = sc.nextInt();
       double num = 0;
       switch (ch) {
